@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- ==============================================
+    Title and Meta Tags
+    =============================================== -->
+    <meta charset="utf-8">
+    <title>Yozie Rojas Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- ==============================================
+    CSS
+    =============================================== -->    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" id="main" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <!-- ==============================================
+    Fonts
+    =============================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->  
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- ==============================================
+      MAIN NAV
+      =============================================== -->
+      <div  role="navigation" id="main-nav" class="navbar navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header"> 
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+              <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>       
+            <!-- ======= LOGO ========-->
+            <div class="navbar-brand">
+              <a><img src="images/navPic.jpg" alt=""/></a>
+              <span>Yozie Rojas</span>           
+            </div>
+          </div>
+
+          <div id="site-nav" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#home" class="scrollto">Home</a></li>
+              <li><a href="#services" class="scrollto">What I Do</a></li>
+              <li><a href="#about" class="scrollto">About Me</a></li>
+              <li><a href="#portfolio" class="scrollto">My Works</a></li>
+              <li><a href="#contact" class="scrollto">Contact Me</a></li>
+            </ul>
+          </div><!-- #end navbar-collapse -->     
+        </div><!--#end nav container -->
+      </div><!--#end navbar-fixed-top -->
+      <!-- ==============================================
+      HEADER
+      =============================================== -->
+      <header id="home">   
+        <div class="row">
+          <div class="container-fluid">
+            <div class="intro col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 text-center">  
+              <h1>Yozie Rojas</h1>
+              <h3>Front-end Developer</h3>       
+            </div>
+            <!--# heaer bg image -->
+            <img src="images/header-bg2.jpg" alt="Working Space">
+          </div>
+        </div>
+      </header><!--# end header -->
+      <div class="clearfix"></div>
+      <!-- ==============================================
+      SERVICES
+      =============================================== -->
+      <section id="services" class="add-padding"> 
+        <h1 class="section-title big-text">My Services</h1>  
+        <div class="container">  
+          <div class="row">     
+            <!-- services content -->
+          </div>      
+        </div>    
+      </section>
+      <!-- ==============================================
+      ABOUT
+      =============================================== -->
+      <section id="about" class="add-padding bg-peach">
+        <div class="container">     
+          <div class="row">   
+          <!-- about content -->
+          </div>        
+        </div>      
+      </section>
+      <!-- ==============================================
+      SKILLS
+      =============================================== -->
+      <section id="skills" class="add-padding">
+        <h1 class="section-title big-text">My Skills</h1>   
+        <div class="container">     
+          <div class="row">     
+          <!-- skills content -->
+          </div>      
+        </div>    
+      </section>
+      <!-- ==============================================
+      PORTFOLIO
+      =============================================== -->
+      <section id="portfolio" class="add-padding">
+        <h1 class="section-title big-text">My Works</h1>        
+        <div class="container">
+          <div class="row">
+            <!-- portfolio content -->
+          </div>
+        </div>
+      </section>
+      <!-- ==============================================
+      CONTACT
+      =============================================== -->
+      <section id="contact" class="add-padding">  
+        <div class="container">     
+          <div class="row"> 
+
+            <!-- contact intro -->
+            <div class="col-sm-6 col-md-5">       
+              <h1 class="big-text text-white">Contact Me</h1>         
+              <p class="lead text-white">
+                I am available for freelance. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>       
+              <p class="text-white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, dui ac porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, dui ac porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, dui ac porta.
+              </p>          
+            </div>
+            <!--contact Form -->
+            <form id="contact-form" class="col-sm-6 col-md-offset-1" action="contact.php" method="post" novalidate>
+
+              <div class="form-group">
+                <div class="controls">
+                  <i class="icon-user"></i>
+                  <input type="text" name="contactName" id="contact-name" placeholder="Your name" class="form-control">
+                </div>
+              </div><!-- #end name input -->
+
+              <div class="form-group">
+                <div class="controls">
+                  <i class="icon-envelope"></i>
+                  <input  type="email"  name="email" id="contact-mail"  placeholder="Your email" class="form-control">
+                </div>
+              </div><!-- #end email input -->
+
+              <div class="form-group">
+                <div class="controls">
+                  <i class="icon-comment"></i>
+                  <textarea name="comments"   id="contact-message"  placeholder="Your message" class="form-control"></textarea>
+                </div>
+              </div><!-- #end textarea -->
+
+              <p><button name="submit" type="submit" class="btn btn-block">Send Message</button></p>      
+            </form><!-- #end contact-form --> 
+
+          </div><!-- #end row -->       
+        </div><!-- #end container -->     
+      </section>
+      <!-- ==============================================
+      MAP
+      =============================================== -->
+      <section id="mapDiv" class="add-padding"> 
+        <h1 class="md-text text-center">Where I've Lived and Worked</h1>
+        <div class="container">     
+          <div class="row">   
+            <div id="map"></div>      
+          </div>
+        </div>
+      </section>
+      <!-- ==============================================
+      FOOTER
+      =============================================== -->   
+      <footer id="main-footer" class="add-padding bg-cobalt-blue peach-border-top"> 
+        <div class="container"> 
+          <div class="row">
+            <!-- social links -->
+          </div>
+
+          <div id="copy-rights">
+          <!-- copy rights -->
+          </div>
+        </div>
+      </footer>   
+    </div><!-- #end wrapper -->
+    <!-- ==============================================     
+    JS
+    =============================================== -->
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+    <!-- Google Map -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src='js/bootstrap.min.js'></script>
+    <!--In resumeBuilder.js writes the code that builds the resume dynamically when this website, index.html, is opened.--> 
+    <script src="js/resumeBuilder.js"></script>   
+    <script src='js/googleMap.js'></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){       
+      services.display (services);
+      bio.displayInfo(bio);  
+      // skills.display(skills);  // why this wont work when called here??
+      projects.display(projects);
+      bio.displaySocialLinks (bio);
+      bio.displayCopyRights(bio);        
+     });
+    </script>
+  </body>
+</html>
