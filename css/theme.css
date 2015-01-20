@@ -1,0 +1,917 @@
+/*-----------------------
+----- Basic Styles -----
+-------------------------*/
+
+body {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #6d6d6d;
+    overflow-x: hidden;
+}
+
+a {
+  color: #F28C83;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+    color:#f28c83;
+    text-decoration:none;
+}
+
+a:focus, .btn:focus {
+    outline: none;
+}
+
+/*-----------------------
+----- Typo Styles ------
+-------------------------*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 300;
+    margin:0;
+}
+
+.text-white {   
+    color: #fff;  
+}
+
+.big-text {
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 62px;
+    letter-spacing: 0.01em;
+    word-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+
+.md-text {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    word-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+
+.section-title {
+    margin-top:-20px;
+    margin-bottom: 33px;
+    text-align:center;
+}
+/*-----------------------
+----- Layout Styles -----
+-------------------------*/
+
+.add-padding {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+
+/*-----------------------
+----- Color Styles ------
+-------------------------*/
+
+/* backgrounds */
+.bg-teal {
+    color: #fff;
+    background: #509b9e;
+}
+
+
+.bg-peach{
+    color: #fff;
+    background: #f28c83;
+}
+
+
+.bg-cobalt-blue{
+    color: #fff;
+    background: #334959;
+}
+
+
+/*  borders */
+.peach-border-bottom {
+    border-bottom:7px solid #f28c83;
+}
+
+
+.peach-border-top{
+    border-top:7px solid #f28c83;
+}
+
+
+
+/*--------------------------
+---- Menu Styles ----
+---------------------------*/
+#main-nav {
+    background: #fff;
+    border-bottom: 1px solid #f28c83;  
+    min-width: 321px;  
+    box-shadow: 0 0 0px transparent;
+    -webkit-transition: background 0.3s ease-out;
+    transition: background 0.3s ease-out;
+}
+
+
+#main-nav .container {
+    -webkit-transition: padding 0.5s ease-out;
+    transition: padding 0.5s ease-out;
+}
+
+
+#main-nav .navbar-header {
+    margin: 0px;
+}
+
+
+#main-nav .navbar-brand {
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px 10px 0 5px; 
+}
+
+
+#main-nav .navbar-brand img {
+    border: 2px solid #f28c83;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+
+#main-nav .navbar-brand span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f28c83;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+
+/* bootstrap class */
+.navbar-right {
+    margin-top: 10px; 
+}
+
+
+#main-nav li {
+    text-align: center;
+    background: transparent;
+    margin: 0 10px;
+    border: 2px solid transparent;
+}
+
+
+/* menu for small screens */
+#main-nav .navbar-toggle {
+    margin-right:15px;  
+}
+
+
+#main-nav .navbar-toggle .icon-bar {
+    width: 28px;
+    height: 4px;
+    margin-top: 0;
+    margin-right: -20px;
+    background: #6d6d6d !important;
+}
+
+
+#main-nav .navbar-toggle .icon-bar + .icon-bar { 
+    margin-top: 4px;
+}
+
+
+/*----------------------------
+---- Header Styles ----
+-----------------------------*/
+
+#home { 
+    max-width: 100%;
+    position: relative; 
+}
+
+
+#home .intro {
+    margin-top: 0px;
+    position: absolute;
+    margin-top: auto;
+    color: #fff;
+}
+
+
+#home .intro h1 { 
+    font-size: 16px;
+    margin-top: 25px;
+    width: 100%; 
+}
+
+
+#home .intro h3 { 
+    font-size: 12px;  
+}
+
+
+#home .intro h1, h3 { 
+    font-weight: bold;
+}
+
+
+#home img {
+    margin-top: 60px;  /*  this determins the height of man-nav. */
+    width: 100%;
+}
+
+
+/*-----------------------
+--- About Styles ----
+-------------------------*/
+
+.polaroid {
+    border: 12px solid #fff;
+    max-width: 75%;
+    box-shadow: 3px 5px 8px rgba(0,0,0,0.5);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+
+/*-----------------------------
+----- Services Styles ----
+------------------------------*/
+#services .service-item { 
+    text-align: left; 
+    padding-bottom: 20px;  
+}
+
+
+#services .service-item h3 { 
+    font-size: 20px; 
+    display: inline-block; 
+    padding: 7px 7px; 
+}
+
+
+#services .service-item [class^="icon-"] {
+    font-size: 25px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+
+#services .service-item p { 
+    padding-top: 10px;  
+}
+
+
+/*--------------------------
+----- Skills Styles ----
+---------------------------*/
+.progress {
+    height: 22px;
+    border: 1px solid gray;
+    background: #fff;
+}
+
+
+.progress-bar  { 
+    border-top-right-radius: 0.5em;  
+    border-bottom-right-radius: 0.5em;  
+}
+
+
+.progress .progress-bar p { 
+    font-size: 14px;  
+    font-weight: bold;  
+}
+
+
+.progress .progress-bar.six-sec-ease-in-out {
+    -webkit-transition: width 6s ease-in-out;
+    -moz-transition: width 6s ease-in-out;
+    -ms-transition: width 6s ease-in-out;
+    -o-transition: width 6s ease-in-out;
+    transition: width 6s ease-in-out;
+}  
+
+
+#skills .container {  
+    padding-left: 0px; 
+}
+
+
+#skills .skill-details {  
+    margin-bottom: 30px; 
+}
+
+
+#skills .skill-details h3 { 
+    font-size: 20px;  
+    margin-bottom: 10px; 
+}
+
+
+/*-----------------------------
+--- Portfolio Styles ----
+------------------------------*/
+#portfolio {
+    padding-top: 70px;
+    background: #1F2C37;
+    /* background:url('../images/bg-portfolio.jpg') no-repeat fixed;
+    background-size:cover; */
+    color: #fff;
+}
+
+
+.portfolio-item {
+    margin-bottom: 15px;
+}
+
+
+.portfolio-item h3 {
+    padding: 10px;
+    margin-top: 5px;
+    /* text-align:center; */
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    word-spacing: 0.15em;
+}
+
+
+/*----------------------------
+----- Contact Styles ----
+------------------------------*/
+
+#contact {
+    background: url(../images/women-coding.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* form inputs */
+#contact-form .form-control {
+    background: #fff;
+    background: rgba(255,255,255,0.9);  /* opac background */
+    border: none;
+    height: 58px;
+    border-radius: 2px;     
+    outline: none;
+    font-size: 25px;           /* input text size, including placeholders.  Has to be same as icon size  */
+    color: #509b9e;            /* input text color: teal  */
+    margin-bottom: 30px;       /* space between inputs */
+    padding-left: 54px;        /*  make space between icons and placeholders  */
+}
+
+
+/* form text area */
+#contact-form textarea.form-control {
+    background: #fff;
+    background: rgba(255,255,255,0.9);  /* opac background */
+    border: none;
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 25px;
+    line-height: 1.5;
+    padding-top: 15px;
+}
+
+
+/* input icons */
+#contact-form [class^="icon-"] {
+    position: absolute;
+    font-size: 25px;
+    color: #509b9e;     /* color teal */
+    color: #f28c83;     /* color peach */
+    margin-top: 15px;
+    margin-left: 10px;          
+}
+
+
+/* input placeholders */
+#contact-form .form-control::-webkit-input-placeholder { 
+    color: #f28c83; opacity: 1;   
+}  /* WebKit browsers */
+
+
+#contact-form .form-control:-moz-placeholder { 
+    color: #f28c83;  opacity: 1; 
+}       
+
+
+/* Mozilla Firefox 4 to 18 */  
+#contact-form .form-control::-moz-placeholder {
+    color: #f28c83;  opacity: 1; 
+}   /* Mozilla Firefox 19+ */ 
+
+
+#contact-form .form-control:-ms-input-placeholder {
+    color: #f28c83;
+} /* Internet Explorer 10+ */
+
+
+#contact-form [type="submit"]  { 
+    background: #509b9e;    /* color teal */
+    background: #f28c83;    /* color peach */
+    font-size: 23px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+/*----------------------------
+----- Map Styles ----
+------------------------------*/
+
+#mapDiv {
+    overflow: hidden;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+
+#mapDiv h1 {
+    margin-top: 10px;
+    line-height:1.5;
+}
+
+
+#mapDiv .container {
+    width: 100%;
+    margin-top: 2.5%;
+    margin-bottom: auto;
+}
+
+
+#map {
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+
+
+/*----------------------
+----- Footer Styles ----
+------------------------*/
+
+#main-footer {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background: #1f2c37;
+}
+
+
+/* social links  */
+.social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+
+.social-links li {
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 3px;
+    box-shadow: 0 4px 0 transparent;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+
+.social-links li a {
+    display: block;
+    color: #fff;
+    color: rgba(255,255,255,0.3);
+    font-size: 21px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+
+.social-links li a:hover {
+    color: #fff;
+    background: #509B9E
+}
+
+
+#copy-rights {
+    font-size: 13px;
+}
+
+
+
+/*-------------------------------
+---- Media Queries ----
+--------------------------------*/
+
+/* NOTES:
+Content (Not Device Width) Determines Breakpoints
+These media queries based the breakpoints on the natural qualities of the content – essentially paying attention to when each element “wants” to be restyled. 
+
+As the screen size increases, I simply pick a point at which the content itself would look better in a new formation, and that’s the breakpoint.
+I started working on small screens first, and continue adjustng until desktop size.
+*/
+
+
+/* small screens */
+@media only screen and (min-width: 200px)  and (max-width: 320px) { 
+
+  /* #main-nav { background: pink;  } */
+
+  #main-nav .navbar-brand span { 
+      font-size: 18px;  
+  } 
+
+
+  #main-nav .navbar-header { 
+      margin-right: 0;
+  } 
+
+
+  #home .intro {  
+     margin-top: 100px;  
+  }
+
+
+  #home .intro h1 { 
+      font-size: 15px; 
+      width: 100%; 
+      margin-top: 5px;
+  }
+
+  #home .intro h3 { 
+      font-size: 10px;
+      margin-top: 5px;
+  }
+
+  #services .service-item h3 {
+      font-size: 14px;
+  }
+
+  #services .service-item [class^="icon-"] {
+      font-size: 20px; 
+  }
+
+
+  #portfolio .container { 
+      padding-left: 0; /*  this bootstrap property needs to be adjust just on this screen size */
+  }  
+
+
+  .portfolio-item { 
+     margin-left: 15px;
+  }
+
+
+  .skill { 
+      padding-left: 35px; 
+  }   
+
+
+  .big-text { 
+      font-size: 30px; 
+  }
+
+
+  .md-text {
+      font-size: 18px;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 321px)  and (max-width: 480px) {  /*  default  style -  portrait viewport 320 x 480*/
+ 
+  /* #main-nav{ background: green;  } */
+
+  #home .intro {
+     margin-top: 90px;
+  }
+
+
+  .skill {
+      padding-left: 35px;
+  }   
+
+}
+
+
+  @media only screen and (min-width: 481px) and (max-width: 620px) { 
+
+  /* #main-nav{ background: blue;  } */
+
+  #home .intro {
+      margin-top: 110px;
+  }
+
+
+  #home .intro h1 {
+      font-size: 20px;
+  }
+
+
+  #home .intro h3 { 
+      font-size: 15px; 
+      margin-top: 20px;
+  }
+
+
+  #portfolio .container { 
+     padding-left: 0;
+  }  /*  this bootstrap property needs to be adjust just on this screen size */
+
+
+  .portfolio-item { 
+     margin-left: 15px; 
+  }
+
+
+  .skill{ 
+      padding-left: 35px; 
+  }   
+
+}
+
+
+
+/* tablets and desktop */
+@media only screen and (min-width: 621px) and (max-width: 767px) {  
+  
+  /* #main-nav{ background: pink;  } */
+
+  #home .intro {  
+      margin-top: 125px;  
+  }
+
+
+  #home .intro h1 { 
+      font-size: 24px; 
+  }
+
+
+  #home .intro h3 {
+      font-size: 20px; 
+      margin-top: 25px; 
+  }
+
+
+  .big-text { 
+      font-size: 58px; 
+  }
+
+
+  .md-text { 
+     font-size: 37px; 
+  }
+
+
+  #services .service-item [class^="icon-"] { 
+      font-size: 25px;  
+  }
+
+
+  .skill { 
+      padding-left: 35px; 
+  }   
+
+
+  .portfolio-item {
+     margin-left: 15px; 
+  }
+
+
+  .portfolio-item h3 { 
+      font-size: 24px;  
+  }
+
+}
+
+
+@media only screen and  (min-width: 768px) and (max-width: 960px) { 
+
+  /* #main-nav{ background: yellow;  } */
+
+  #main-nav .navbar-brand {  
+     margin-left: -5px;  /* adjust only here */
+  } 
+
+  .navbar-right {
+     margin-top: 0;
+  }
+
+
+  #home .intro {
+     margin-top: 145px;  
+  }
+
+
+  #home .intro h1 {
+     font-size: 32px;
+  }
+
+
+  #home .intro h3 {
+      font-size: 22px; margin-top:25px;
+  }
+
+
+  .big-text { 
+     font-size: 58px; 
+  }
+
+
+  .md-text { 
+      font-size: 37px; 
+  }
+
+
+  .add-padding {  
+      padding-top: 120px;   
+      padding-bottom: 140px; 
+  }
+
+
+  .polaroid {
+      border: 12px solid #fff;
+      width: 90%;
+      max-width: 500px;
+      margin: 0 auto 35px;
+      box-shadow: 3px 5px 8px rgba(0,0,0,0.5);
+      -webkit-transform: rotate(-5deg);
+      transform: rotate(-5deg); 
+  }
+
+
+  .portfolio-item h3 { 
+      font-size: 24px;  
+  }
+
+
+  /* .social-links*/
+  .social-links li a { 
+      font-size: 22px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 50%;
+  }
+
+
+  #copy-rights {
+      font-size: 16px;
+  }
+
+
+}
+
+
+
+@media only screen and  (min-width: 961px) and (max-width: 1200px) { 
+
+  /* #main-nav{ background: cyan;  } */
+
+  .navbar-right {
+      margin-top: 0;
+  }
+
+
+  #home .intro {  
+      margin-top: 165px;  
+  }
+
+
+  #home .intro h1 { 
+      font-size: 40px;    
+  }
+
+
+  #home .intro h3 { 
+      font-size: 28px; 
+      margin-top: 35px;   
+  }
+
+
+  .big-text { 
+      font-size: 58px; 
+  }
+
+
+  .md-text { 
+  font-size: 37px; 
+  }
+
+
+  .add-padding {  
+      padding-top: 120px;   
+      padding-bottom: 140px; 
+  }
+
+
+  #services .service-item [class^="icon-"] { 
+     font-size: 35px;  
+  }
+
+
+  .portfolio-item h3 { 
+      font-size: 24px;  
+  }
+
+
+  /* .social-links*/
+  .social-links li a { 
+      font-size: 22px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 50%;
+  }
+
+
+  #copy-rights {
+      font-size: 16px;
+  }
+
+}
+
+
+
+@media only screen and  (min-width: 1201px)  { 
+
+  .navbar-right {
+      margin-top: 0;
+  }
+
+
+  #home .intro {  
+     margin-top: 265px;  
+  }
+
+
+  #home .intro h1 {
+      font-size: 48px;    
+  }
+
+
+  #home .intro h3 {
+      font-size: 28px;
+      margin-top: 35px;  
+  }
+
+
+  .big-text {
+      font-size: 58px; 
+  }
+
+
+  .md-text {
+      font-size: 37px; 
+  }
+
+
+  .add-padding {
+      padding-top: 120px;
+      padding-bottom: 140px;
+  }
+
+
+  .portfolio-item h3 {
+      font-size: 24px;  
+  }
+
+
+  /* .social-links*/
+  .social-links li a { 
+      font-size: 22px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 50%;
+  }
+
+
+  #copy-rights {
+      font-size: 16px;
+  }
+
+}
